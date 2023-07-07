@@ -1,0 +1,17 @@
+#wall-bg {
+  .wall-card {
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+    .thumbs-wrapper {
+      display: none!important; // overwrite carousel library styles
+    }
+    .react-counts {
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+  }
+}

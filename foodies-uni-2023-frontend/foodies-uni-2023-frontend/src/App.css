@@ -1,0 +1,15 @@
+.main-section {
+  max-width: 70vw;
+  margin: auto;
+}
+
+.footer {
+  background: #3e2723;
+  color: white;
+  margin-top: 100px;
+}
+
+.footer-center {
+  text-align: center;
+  margin-bottom: 20px;
+}

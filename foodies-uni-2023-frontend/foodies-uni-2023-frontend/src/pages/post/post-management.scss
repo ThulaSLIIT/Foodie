@@ -1,0 +1,44 @@
+#post-management-bg {
+  .image-uploader {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    label {
+      width: 100px;
+      height: 100px;
+      border: 1.5px dashed brown;
+      border-radius: 0;
+      margin: 10px;
+    }
+  }
+  #post-management-inputs {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    .text-fields {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    button {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+#image-uploader-set1 {
+  display: block;
+}
+#image-uploader-set2 {
+  display: none;
+}
+
+@media all and (max-width: 680px) {
+  #image-uploader-set1 {
+    display: none;
+  }
+  #image-uploader-set2 {
+    display: block;
+  }
+}

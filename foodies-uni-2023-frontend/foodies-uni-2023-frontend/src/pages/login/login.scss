@@ -1,0 +1,35 @@
+#login-bg {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#login-box {
+  width: fit-content;
+  height: fit-content;
+  background-color: #FFDC2A;
+  border: 3px solid #3e2723;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  .text-fields {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin: auto;
+  }
+
+  button {
+    color: white;
+  }
+}

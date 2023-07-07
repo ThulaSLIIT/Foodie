@@ -1,0 +1,24 @@
+#profile-bg {
+  #profile-details {
+
+    text-align: center;
+
+  }
+  #profile-post-btn {
+    text-align: center;
+    button {
+      min-width: 300px;
+      color: white;
+    }
+  }
+  #profile-post-grid {
+    margin-top: 40px;
+    .thumbs-wrapper {
+      display: none!important; // overwrite carousel library styles
+    }
+    .react-counts {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
